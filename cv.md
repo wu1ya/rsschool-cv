@@ -7,8 +7,20 @@ My goal is to learn how to program. Now I work in IT in the technical support de
 * Experienced PC user
 * Stress resistant
 * Multitasking
-* Easy to learn
+* Easy to learng
+### Code example:
+```
+const assert = require("chai").assert;
 
+describe("Multiply", () => {
+  it("fixed tests", () => {
+    assert.strictEqual(multiply(1,1), 1);
+    assert.strictEqual(multiply(2,1), 2);
+    assert.strictEqual(multiply(2,2), 4);
+    assert.strictEqual(multiply(3,5), 15);   
+  });
+});
+```
 
 
 
