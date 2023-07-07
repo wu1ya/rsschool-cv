@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV-Volkov</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Hello</h1>
+<body class="wrapper">
+    <header>
+        <nav>
+            <div class="wrapper-nav">
+                <ul>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#code">Code</a></li>
+                    <li class="nav-item"><a href="#work">Work</a></li>
+                    <li class="nav-item"><a href="#lang">Language</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="name-photo">
+            
+            <h1>Andrey Volkov</h1>
+            <img class="photo" src="Screenshot_1.png" alt="photo">
+        </div>
+
+        <div class="main-content">
+            <div class="content-block">
+                <h2 id="about">About me:</h2>
+                <p>My goal is to learn how to program. Now I work in IT in the technical support department. In the future I want to become a web-developer.</p>
+            </div>
+            <div class="content-block">
+                <h2 id="skills">Skills:</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>GIT</li>
+                </ul>
+            </div>
+            <div class="content-block">
+                <h2 id="code">Code example:</h2>
+                <code>
+                    const square = (num) => {
+                    return num * num;
+                  };
+                </code>
+            </div>
+            <div class="content-block">
+                <h2 id="work">Example of work:</h2>
+                <div class="work"><a href="https://wu1ya.github.io/rsschool-cv/"><img src="5622660.png" alt="logo"></a></div>
+            </div>
+            <div class="content-block">
+                <h2 id="lang">Language:</h2>
+                <ul>
+                    <li>Russian</li>
+                    <li>English A1</li>
+                </ul>
+            </div>
+            <div class="content-block">
+                <h2 id="contact">Contacts:</h2>
+                <ul>
+                    <li>email: wu1yawrkk@gmail.com</li>
+                    <li>discord: wu1ya(@wu1ya)</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="wrapper-footer">
+        <a  class="footer-item" href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="logo-course" ></a>
+        <a class="footer-item" href="https://github.com/wu1ya?tab=repositories" target="_blank"><img src="GitHub-Logo.png" alt="git" width="100"></a>
+        <div class="date">2023</div>
+    </footer>
 </body>
 </html>
