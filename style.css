@@ -46,6 +46,7 @@ a {
     border-radius: 50%;
     height: 200px;
     width: 200px;
+    border: 5px solid rgba(255, 255, 255, 0.531);
 }
 
 h1 {
